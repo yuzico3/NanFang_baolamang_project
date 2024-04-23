@@ -1,0 +1,5 @@
+2024-04-01 15:00:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EMPLOYEE" not found; SQL statement:
+SELECT  id,username,name,password,phone,sex,id_number,status,create_time,update_time,create_user,update_user  FROM employee 
+ 
+ WHERE (username = ?) [42102-197]
